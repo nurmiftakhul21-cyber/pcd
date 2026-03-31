@@ -1,0 +1,15 @@
+1. Konversi RGB ke Grayscale
+Pada gambar kucing yang digunakan, proses konversi dari RGB ke grayscale mengubah seluruh warna menjadi tingkat keabuan tanpa menghilangkan bentuk utama objek. Warna oranye pada bulu kucing berubah menjadi abu-abu terang, sedangkan bagian mata yang semula gelap tetap terlihat lebih gelap dibandingkan area lain. Latar belakang juga menjadi abu-abu dengan intensitas berbeda. Meskipun warna asli hilang, detail seperti tekstur bulu dan bentuk wajah kucing masih dapat dikenali dengan jelas.
+2. Konversi Grayscale ke Biner
+Ketika gambar grayscale diubah menjadi biner, gambar hanya terdiri dari dua warna yaitu hitam dan putih. Pada gambar kucing, bagian yang lebih terang seperti bulu akan cenderung menjadi putih, sedangkan bagian gelap seperti mata dan bayangan menjadi hitam. Akibatnya, detail halus pada bulu kucing menjadi hilang dan yang terlihat lebih dominan adalah bentuk atau siluet kucing secara keseluruhan.
+3. Konversi Grayscale ke m-bit
+Pada proses ini, jumlah tingkat keabuan pada gambar dikurangi sehingga gambar menjadi lebih sederhana. Pada gambar kucing, pengurangan tingkat keabuan menyebabkan transisi warna pada bulu tidak lagi halus dan terlihat lebih kasar atau patah-patah. Detail yang sebelumnya terlihat lembut menjadi berkurang, terutama pada bagian bulu dan latar belakang, sehingga kualitas visual gambar menurun.
+4. Pengaturan Brightness
+Saat brightness ditingkatkan, seluruh bagian gambar menjadi lebih terang. Pada gambar kucing, bulu terlihat lebih cerah dan latar belakang juga ikut menjadi lebih terang. Bagian yang sebelumnya gelap menjadi lebih terlihat, namun jika peningkatan brightness terlalu tinggi, beberapa detail bisa menjadi kurang jelas karena terlalu terang.
+5. Pengaturan Contrast
+Pengaturan contrast pada gambar kucing membuat perbedaan antara bagian terang dan gelap menjadi lebih jelas. Bulu kucing terlihat lebih tajam dan teksturnya lebih menonjol, sementara bagian gelap seperti mata menjadi semakin kontras. Hal ini membuat gambar terlihat lebih tegas dan detail lebih mudah diamati dibandingkan sebelum dilakukan peningkatan kontras.
+6. Histogram Grayscale
+Histogram grayscale pada gambar kucing menunjukkan distribusi tingkat keabuan dari seluruh pixel. Pada gambar ini, terlihat bahwa terdapat kombinasi antara pixel terang dan gelap, yang menandakan bahwa pencahayaan gambar cukup seimbang. Area bulu yang terang akan muncul pada bagian kanan histogram, sedangkan mata dan bayangan muncul pada bagian kiri, sehingga memberikan gambaran umum tentang komposisi intensitas dalam citra.
+7. Histogram Equalization
+Setelah dilakukan histogram equalization, distribusi intensitas pada gambar menjadi lebih merata sehingga kualitas visual meningkat. Pada gambar kucing, detail pada bulu menjadi lebih jelas dan perbedaan antara bagian terang dan gelap terlihat lebih seimbang. Hasilnya, gambar tampak lebih tajam dan lebih mudah diamati dibandingkan sebelum proses ini dilakukan, terutama pada bagian wajah dan tekstur bulu kucing.
+
